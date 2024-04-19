@@ -1,3 +1,29 @@
+.vd_box {
+  background-color: greenyellow;
+  padding: 20px;
+  font-family: Courier New;
+}
+
+.vd_box #vd_ip {
+  display: inline;
+}
+
+.vd_loader {
+  border: 2px solid black; 
+  border-top: 2px solid white; 
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  animation: vd-loader 1s linear infinite;
+  float:right;
+}
+
+@keyframes vd-loader {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
 body { background-color: #0F160E;
 font-family: "Inconsolata";
 }
