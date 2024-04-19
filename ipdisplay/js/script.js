@@ -1,3 +1,4 @@
+"use strict";
 const doSomething = getIP();
 async function getIP() {
     const element_ip = document.getElementById("vd_ip") || new HTMLElement();
