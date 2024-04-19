@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My IP</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="author" content="MdFarzan" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id="wrapper">
+<span id="title">Click button to get your details</span>
+<span id="ip"></span>
+<button type="button">Get my IP</button>
+</div>
+
+<p>For accuracy please enable GPS/Location.</p>
+<script src="js/script.js"></script>
+</body>
+</html>
