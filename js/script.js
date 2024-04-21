@@ -223,3 +223,29 @@ function onWindowResize() {
     camera.updateProjectionMatrix();
     renderer.setSize(container.clientWidth, container.clientHeight);
 }
+
+//HowlerJS code
+//(old commemt)my first actual coding attempt :D
+var list = [
+'https://ericbruhwhywhyhy.github.io/awebsite/minecraft.mp3',
+'https://ericbruhwhywhyhy.github.io/awebsite/minecraft_2.mp3',
+'https://ericbruhwhywhyhy.github.io/awebsite/touhou7.mp3'
+]
+
+
+function autoplay(i, list) {
+    var sound = new Howl({
+        src: [list[i]],
+        preload: true,
+        onend: function () {
+            if ((i + 1) == list.length) {
+                autoplay(0, list)
+            } else {
+                autoplay(i + 1, list)
+            }
+        }
+    })
+    sound.play();
+}
+
+autoplay(0, list)
