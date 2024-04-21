@@ -4,7 +4,7 @@ let renderer,
     moon,
     sphereBg,
     terrainGeometry,
-    container = document.getElementById("canvas_container"),
+    container = document.getElementById("background"),
     timeout_Debounce,
     frame = 0,
     cameraDx = 0.05,
@@ -38,7 +38,7 @@ function init() {
     scene.add(pointLight1);
 
     renderer = new THREE.WebGLRenderer({
-        antialias: true,
+        antialias: false,
         alpha: true
     });
     renderer.setSize(container.clientWidth, container.clientHeight);
@@ -223,22 +223,3 @@ function onWindowResize() {
     camera.updateProjectionMatrix();
     renderer.setSize(container.clientWidth, container.clientHeight);
 }
-
-
-
-/*     Fullscreen btn     */
-let fullscreen;
-let fsEnter = document.getElementById('fullscr');
-fsEnter.addEventListener('click', function (e) {
-    e.preventDefault();
-    if (!fullscreen) {
-        fullscreen = true;
-        document.documentElement.requestFullscreen();
-        fsEnter.innerHTML = "Exit Fullscreen";
-    }
-    else {
-        fullscreen = false;
-        document.exitFullscreen();
-        fsEnter.innerHTML = "Go Fullscreen";
-    }
-});
