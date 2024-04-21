@@ -48,7 +48,7 @@ function init() {
     const loader = new THREE.TextureLoader();
 
     // Planet
-    const texturePlanet = loader.load('https://i.ibb.co/h94JBXy/saturn3-ljge5g.jpg');
+    const texturePlanet = loader.load('https://www.solarsystemscope.com/textures/download/8k_moon.jpg');
     texturePlanet.anisotropy = 16;
     const planetGeometry = new THREE.SphereBufferGeometry(10, 50, 50);
     const planetMaterial = new THREE.MeshLambertMaterial({
@@ -61,7 +61,7 @@ function init() {
 
 
     //Moon
-    const textureMoon = loader.load('https://i.ibb.co/64zn361/moon-ndengb.jpg');
+    const textureMoon = loader.load('https://www.solarsystemscope.com/textures/download/2k_earth_nightmap.jpg');
     textureMoon.anisotropy = 16;
     let moonGeometry = new THREE.SphereBufferGeometry(2, 32, 32);
     let moonMaterial = new THREE.MeshPhongMaterial({
@@ -74,7 +74,7 @@ function init() {
 
 
     // Sphere Background 
-    const textureSphereBg = loader.load('https://i.ibb.co/JCsHJpp/stars2-qx9prz.jpg');
+    const textureSphereBg = loader.load('https://www.solarsystemscope.com/textures/download/8k_stars_milky_way.jpg');
     textureSphereBg.anisotropy = 16;
     const geometrySphereBg = new THREE.SphereBufferGeometry(150, 32, 32);
     const materialSphereBg = new THREE.MeshBasicMaterial({
