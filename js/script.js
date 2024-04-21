@@ -74,7 +74,7 @@ function init() {
 
 
     // Sphere Background 
-    const textureSphereBg = loader.load('https://files.catbox.moe/jr2pfb.jpg');
+    const textureSphereBg = loader.load('https://files.catbox.moe/i5zecr.jpg');
     textureSphereBg.anisotropy = 16;
     const geometrySphereBg = new THREE.SphereBufferGeometry(150, 32, 32);
     const materialSphereBg = new THREE.MeshBasicMaterial({
