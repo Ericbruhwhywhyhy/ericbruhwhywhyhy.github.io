@@ -1,16 +1,13 @@
-body {
+ body {
     margin: 0;
     overflow: hidden;
     position: relative;
     width: 100vw;
     height: 100vh;
-    background-image: url("https://user-images.githubusercontent.com/26748614/96337412-581f2e80-1087-11eb-90f3-f033a8a1b41e.jpg");
+    background-image:
+url("https://user-images.githubusercontent.com/26748614/96337412-581f2e80-1087-11eb-90f3-f033a8a1b41e.jpg");
     background-size: cover;
 font-family: "Inconsolata";
-}
-#canvas_container {
-    width: 100%;
-    height: 100vh;
 }
 
 h1 { background: -webkit-linear-gradient(#eee, #333); -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
@@ -26,10 +23,6 @@ background: -webkit-linear-gradient(#eee, #333); -webkit-background-clip: text; 
 
 
 }
-.live-profile {
-    background-color: black;
-}
-
 li{
     color: white;
 }
@@ -52,10 +45,6 @@ li{
     top:69px;
     right:18px;
 }
-.hola {
-    position:absolute;
-    top:72px;
-}
 .ingamename{
     position:absolute;
     top:202px;
@@ -69,7 +58,7 @@ li{
     position:absolute;
     top:72px;
 }
-canvas {
+#background{
   width: 100vw;
   height: 100vh;
   display: block;
