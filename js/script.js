@@ -48,7 +48,7 @@ function init() {
     const loader = new THREE.TextureLoader();
 
     // Planet
-    const texturePlanet = loader.load('https://www.solarsystemscope.com/textures/download/2k_earth_nightmap.jpg');
+    const texturePlanet = loader.load('https://i.ibb.co/h94JBXy/saturn3-ljge5g.jpg');
     texturePlanet.anisotropy = 16;
     const planetGeometry = new THREE.SphereBufferGeometry(10, 50, 50);
     const planetMaterial = new THREE.MeshLambertMaterial({
@@ -61,7 +61,7 @@ function init() {
 
 
     //Moon
-    const textureMoon = loader.load('https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_poles_1k.jpg');
+    const textureMoon = loader.load('https://i.ibb.co/64zn361/moon-ndengb.jpg');
     textureMoon.anisotropy = 16;
     let moonGeometry = new THREE.SphereBufferGeometry(2, 32, 32);
     let moonMaterial = new THREE.MeshPhongMaterial({
