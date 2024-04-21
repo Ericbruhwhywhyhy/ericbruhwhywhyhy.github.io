@@ -74,7 +74,7 @@ function init() {
 
 
     // Sphere Background 
-    const textureSphereBg = loader.load('https://www.solarsystemscope.com/textures/download/8k_stars_milky_way.jpg');
+    const textureSphereBg = loader.load('https://files.catbox.moe/jr2pfb.jpg');
     textureSphereBg.anisotropy = 16;
     const geometrySphereBg = new THREE.SphereBufferGeometry(150, 32, 32);
     const materialSphereBg = new THREE.MeshBasicMaterial({
