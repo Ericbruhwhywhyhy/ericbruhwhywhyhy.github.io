@@ -18,7 +18,39 @@ background: -webkit-linear-gradient(#eee, #333); -webkit-background-clip: text; 
 .live-profile {
     background-color: black;
 }
-.holee:{
-    
+
+li{
+    color: white;
 }
 
+.social_section{
+    display:flex;
+    position:absolute;
+    top:0px;
+    right:16px;
+    height:66px;
+}
+.tetrio-stats{
+    position:absolute;
+    top:342px;
+    right:17%;
+}
+.social-tip{
+    display:flex;
+    position:absolute;
+    top:69px;
+    right:18px;
+}
+.hola {
+    position:absolute;
+    top:72px;
+}
+.ingamename{
+    position:absolute;
+    top:202px;
+}
+
+.text-race{
+    position:absolute;
+    top:666px;
+}
