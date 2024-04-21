@@ -12,32 +12,6 @@
         <script src="https://pixijs.download/v8.1.0/pixi.min.js"></script>
         </head>
     <body>
-        <script>
-        //my first actual coding attempt :D
-        var list = [
-    './minecraft.mp3',
-    './minecraft_2.mp3',
-    './touhou7.mp3'
-]
-
-
-function autoplay(i, list) {
-    var sound = new Howl({
-        src: [list[i]],
-        preload: true,
-        onend: function () {
-            if ((i + 1) == list.length) {
-                autoplay(0, list)
-            } else {
-                autoplay(i + 1, list)
-            }
-        }
-    })
-    sound.play();
-}
-
-autoplay(0, list)
-        </script>
    <div id="background">
         <div class="social_section">
         <button onclick="window.location.href='https://ch.tetr.io/u/ericbruhwhywhyhy'; "> TETR.IO PROFILE </button>
