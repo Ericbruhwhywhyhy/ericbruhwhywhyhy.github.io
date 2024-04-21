@@ -1,4 +1,12 @@
-body { background-color: #0F160E;
+ body {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image:
+url("https://user-images.githubusercontent.com/26748614/96337412-581f2e80-1087-11eb-90f3-f033a8a1b41e.jpg");
+    background-size: cover;
 font-family: "Inconsolata";
 }
 
@@ -15,10 +23,6 @@ background: -webkit-linear-gradient(#eee, #333); -webkit-background-clip: text; 
 
 
 }
-.live-profile {
-    background-color: black;
-}
-
 li{
     color: white;
 }
@@ -41,10 +45,6 @@ li{
     top:69px;
     right:18px;
 }
-.hola {
-    position:absolute;
-    top:72px;
-}
 .ingamename{
     position:absolute;
     top:202px;
@@ -58,21 +58,12 @@ li{
     position:absolute;
     top:72px;
 }
-.planet:before {
-	content: "";
-	display: block;
-	position: fixed;
-	width: 1500px;
-  aspect-ratio: 1;
-	left: 100%;
-	top: 50%;
-	z-index: -1;
-  transform: translateX(-50%) translateY(-50%);
-	background-image: radial-gradient(at 50% 50% in oklch,
-			color-mix(in oklch, skyblue, blue 80%),
-			color-mix(in oklch, skyblue, blue 10%) 19%,
-			color-mix(in oklch, skyblue, blue 20%) 20%,
-			color-mix(in oklch, skyblue, blue 80%),
-			color-mix(in oklch, blue, black 50%) 55%,
-			transparent 70%);
+#background{
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -9999;
 }
