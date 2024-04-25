@@ -18,12 +18,9 @@ h2 { background: -webkit-linear-gradient(#eee, #333); -webkit-background-clip: t
 text-decoration: underline;
 }
 
-p {
-background: -webkit-linear-gradient(#eee, #333); -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
-
-
 }
 li{
+background: rgba(31, 52, 71, .5);
     color: white;
 }
 
@@ -72,9 +69,13 @@ li{
     height:100%;
     width:100%;
 }
-
 #post{
     background: rgba(225, 225, 225, .5);
     }
+    
+#postcontent{
+    background: rgba(31, 52, 71, .5);
+}
+
     
 
