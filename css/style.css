@@ -1,4 +1,4 @@
- body {
+body {
     margin: 0;
     overflow: scroll;
     position: relative;
@@ -72,3 +72,9 @@ li{
     height:100%;
     width:100%;
 }
+
+#post{
+    background: rgba(225, 225, 225, .5);
+    }
+    
+
