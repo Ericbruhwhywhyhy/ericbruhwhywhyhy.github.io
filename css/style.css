@@ -43,6 +43,7 @@ background: rgba(31, 52, 71, .5);
     right:18px;
 }
 .ingamename{
+    background: rgba(31, 52, 71, .5)
     position:absolute;
     top:202px;
 }
