@@ -21,6 +21,7 @@ text-decoration: underline;
 }
 li{
 background: rgba(31, 52, 71, .5);
+    color: red;
 }
 
 .social_section{
