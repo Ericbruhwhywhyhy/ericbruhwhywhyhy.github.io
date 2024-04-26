@@ -1,6 +1,5 @@
 //hopefully this will prevent memory leak
-'use strict';
-
+"use strict";
 let renderer,
     camera,
     planet,
