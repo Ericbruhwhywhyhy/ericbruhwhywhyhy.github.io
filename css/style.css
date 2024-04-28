@@ -14,14 +14,13 @@ p {
     color:white;
 }
 
+
 h1 { color:white;
 }
 
-h2 { background: -webkit-linear-gradient(#eee, #333); -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
-text-decoration: underline;
+h2 { color:white;
 }
 
-}
 li{
 background: rgba(31, 52, 71, .5);
     color: red;
@@ -83,4 +82,7 @@ background: rgba(31, 52, 71, .5);
 }
 
     
-
+#posterimg{
+  width:25%;
+  heigh:25%;
+}
