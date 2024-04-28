@@ -10,8 +10,11 @@ url("https://unsplash.com/photos/flfhAlEwDq4/download?ixid=M3wxMjA3fDB8MXxzZWFyY
 font-family: "Inconsolata";
 }
 
-h1 { background: -webkit-linear-gradient(#eee, #333); -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
-text-decoration: underline;
+p {
+    color:white;
+}
+
+h1 { color:white;
 }
 
 h2 { background: -webkit-linear-gradient(#eee, #333); -webkit-background-clip: text; -webkit-text-fill-color: transparent; 
