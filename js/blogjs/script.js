@@ -223,13 +223,4 @@ function onWindowResize() {
     camera.aspect = container.clientWidth / container.clientHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(container.clientWidth, container.clientHeight);
-}
-
-
-var blogbgm = new Howl ({
-  src:["https://github.com/Ericbruhwhywhyhy/makeshiftmediastorage/raw/main/aerialcity%20(1).mp3"],
-  preload: true,
-  html5: true
-})
-
-blogbgm.play();
+};
