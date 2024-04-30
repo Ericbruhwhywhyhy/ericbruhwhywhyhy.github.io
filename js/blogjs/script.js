@@ -229,6 +229,7 @@ function onWindowResize() {
 var blogbgm = new Howl ({
   src:["https://github.com/Ericbruhwhywhyhy/makeshiftmediastorage/raw/main/aerialcity%20(1).mp3"],
   preload: true,
+  html5: true
 })
 
 blogbgm.play();
