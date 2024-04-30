@@ -225,11 +225,10 @@ function onWindowResize() {
     renderer.setSize(container.clientWidth, container.clientHeight);
 }
 
-const bgm="https://github.com/Ericbruhwhywhyhy/makeshiftmediastorage/raw/main/aerialcity%20(1).mp3"
-var blogbgm= new Howl [{
-  src:[bgm],
-  preload: true,
-  loop: true
-}];
 
-blogbgm.play()
+var blogbgm = new Howl ({
+  src:["https://github.com/Ericbruhwhywhyhy/makeshiftmediastorage/raw/main/aerialcity%20(1).mp3"],
+  preload: true,
+})
+
+blogbgm.play();
