@@ -227,6 +227,7 @@ function onWindowResize() {
 //HowlerJS code
 //(old commemt)my first actual coding attempt :D
 var list = [
+'https://ericbruhwhywhyhy.github.io/awebsite/3008friday.mp3'
 'https://ericbruhwhywhyhy.github.io/awebsite/minecraft.mp3',
 'https://ericbruhwhywhyhy.github.io/awebsite/minecraft_2.mp3',
 'https://ericbruhwhywhyhy.github.io/awebsite/touhou7.mp3'
