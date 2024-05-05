@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="https://ericbruhwhywhyhy.github.io/awebsite/css/style.css">
+
+     <link rel="stylesheet" href="./style.css">
+
     <script src="https://ericbruhwhywhyhy.github.io/awebsite/js/three.min.js"></script>
       <script src="https://ericbruhwhywhyhy.github.io/awebsite/js/howler.js"></script>
     
@@ -9,12 +11,14 @@
     <title>A bare-bone blog! 1!1!1!!1</title>
 </head>
 <body>
-        <div class="blog-section">
-            
+<div id="bg"></div>
+<div id="shade"></div>
+  <div id="main">
+    	<div class="blog-section">
              <div id="post">
                 <a href="./post/post1"><h2>I made a simple blog page!</h2><a>
                     <time id="time" datetime="2024/04/25">2024/04/25</time>
-                    <p>Woah, how does this skeleton work?</p><a href="./post/post1">Read more >>> </a>
+                    <p>Woah, how does this skeleton work?</p><a class="button" href="./post/post1">Read more >>> </a>
             </div>
             
             <div id="post">
@@ -22,9 +26,11 @@
                     <time id="time" datetime="2024/04/25">2024/04/25</time>
                     <p>Hmmmm yes post content goes here...</p>
             </div>
-           <div id="background"></div> 
+
         </div>
     <script src="https://ericbruhwhywhyhy.github.io/awebsite/js/blogjs/script.js"></script>
     <script src="https://ericbruhwhywhyhy.github.io/awebsite/js/blogjs/bgm.js"></script>
+        <div id="background">
+    </div>
 </body>
 </html>
