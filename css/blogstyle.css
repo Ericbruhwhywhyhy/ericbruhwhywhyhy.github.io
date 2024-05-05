@@ -52,15 +52,31 @@
 		}
 
 		#main {
+		  position: absolute;
+		  top: 8rem;
+		  left: 7.25rem;
+		  width: 44rem;
+		  padding-left: 15rem;
+		  max-width: 95vw;
+		  box-sizing: border-box;
 		  z-index: 0;
 			color: #888;
 			transform:
+			perspective(600px)
+			translate3d(-50%,-50%,-15rem)
 			rotate3d(0, 0, 0, 90deg);
+			transform-origin: 50% 50% -15rem;
 			animation: 0.5s MainAppear cubic-bezier(.3,1.48,.7,.99);
 		}
 		@keyframes MainAppear {
-			from { opacity: 0; transform: perspective(600px)  rotate3d(1, 0, 0, 90deg); }
-			to { opacity: 1; transform: perspective(600px) rotate3d(0, 0, 0, 90deg); }
+			from { opacity: 0; transform:
+			perspective(600px)
+			translate3d(-50%, -50%, -15rem)
+			rotate3d(1, 0, 0, 90deg); }
+			to { opacity: 1; transform:
+			perspective(600px)
+			translate3d(-50%, -50%, -15rem)
+			rotate3d(0, 0, 0, 90deg); }
 		}
 		@keyframes MainHide {
 			from { opacity: 1; transform: perspective(600px) translate3d(-50%, -50%, -15rem) rotate3d(0, 0, 0, 90deg); }
