@@ -8,8 +8,12 @@
 			font-weight: 900;
 			src: url('./assets/cb.ttf');
 		}
+		body{
+		  overflow: scroll;
+		}
 
 		html {
+		  overflow: scroll;
 			background: #000000;
 			-moz-user-select: none !important;
 			-khtml-user-select: none !important;
@@ -157,12 +161,11 @@ li{
   top: 10rem;
 }
 #copyright{
-  background: white;
-  width:999px;
-  position: absolute;
-  bottom: 0rem;
-  right: 0rem;
+  position: relative;
+  top: 2000px ;
 }
 #copyright h2{
+  color: #6BB020;
   text-align: center;
 }
+
