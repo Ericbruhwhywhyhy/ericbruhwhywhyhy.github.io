@@ -83,12 +83,6 @@
 			font-size: 1.25rem;
 		}
 
-
-
-		#main li {
-			margin: 0.25rem 0;
-		}
-
 		#main .button {
 			display: inline-block;
 			padding: 0.5rem 1rem;
@@ -133,4 +127,7 @@ p{
 }
 li{
   color:#fff;
+}
+time{
+  color:#1D5083;
 }
