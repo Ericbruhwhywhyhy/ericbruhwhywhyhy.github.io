@@ -150,3 +150,19 @@ li{
 #time{
   color:#1D5083;
 }
+#why img{
+  filter: invert(100);
+  position: absolute;
+  right:0px;
+  top: 10rem;
+}
+#copyright{
+  background: white;
+  width:999px;
+  position: absolute;
+  bottom: 0rem;
+  right: 0rem;
+}
+#copyright h2{
+  text-align: center;
+}
