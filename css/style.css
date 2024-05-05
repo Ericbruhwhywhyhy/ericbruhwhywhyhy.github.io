@@ -66,12 +66,12 @@ background: rgba(31, 52, 71, .5);
      0;
      z-index: -9999; }
 .tetrio img {
-     height: 100%;
-     width: 100%;
+     height: 50%;
+     width: 50%;
 }
 .youtube img{
-    height:100%;
-    width:100%;
+    height:50%;
+    width:50%;
 }
 #post{
     background: rgba(225, 225, 225, .5);
@@ -86,8 +86,20 @@ background: rgba(31, 52, 71, .5);
   width:45px;
   heigh:45px;
 }
-
+.button #youtube {
+  width:25px;
+  height:25px;
+}
+.tetriobutton #tetrio{
+  width:100%;
+  height:100%;
+}
+.tetriobutton #tetrio:hover{
+  filter: invert(100);
+}
 	.button {
+	  width:35px;
+	  height:35px;
 			display: inline-block;
 			padding: 0.5rem 1rem;
 			padding-top: 0.4rem;
@@ -99,6 +111,36 @@ background: rgba(31, 52, 71, .5);
 			margin-right: 0.5rem;
 			transform: translateY(0px);
 			transition: 0.3s color, 0.3s background-color, 0.3s border-color, 0.3s transform;
+		}
+		
+
+	.tetriobutton {
+	  width: 145px;
+	  height: 35px;
+	  display: inline-block;
+	  padding: 0.5rem 1rem;
+	  padding-top: 0.4rem;
+	  background-color: #888;
+	  border: 1px solid #888;
+	  border-radius: 3px;
+	  color: #888;
+	  cursor: pointer;
+	  margin-right: 0.5rem;
+	  transform: translateY(0px);
+	  transition: 0.3s color, 0.3s background-color, 0.3s border-color, 0.3s transform;
+	}
+			.tetriobutton:hover {
+			background-color: #333;
+			border-color: #FFF;
+			color: #FFF;
+			transform: translateY(-1px);
+		}
+		.tetriobutton:active {
+			background-color: #FFF;
+			border-color: #FFF;
+			color: #000;
+			transform: translateY(2px);
+			transition: 0.05s color, 0.05s background-color, 0.05s border-color, 0.05s transform;
 		}
 		.button:hover {
 			background-color: #333;
