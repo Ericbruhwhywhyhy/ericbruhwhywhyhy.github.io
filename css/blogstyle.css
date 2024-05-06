@@ -1,13 +1,3 @@
-		@font-face {
-			font-family: 'C';
-			font-weight: 500;
-			src: url('./assets/cr.ttf');
-		}
-		@font-face {
-			font-family: 'C';
-			font-weight: 900;
-			src: url('./assets/cb.ttf');
-		}
 		body{
 		  overflow: scroll;
 		}
@@ -56,6 +46,7 @@
 		}
 
 		#main {
+		  overflow: scroll;
 		  position: absolute;
 		  top: 17rem;
 		  left: 7.25rem;
@@ -168,4 +159,6 @@ li{
   color: #6BB020;
   text-align: center;
 }
+#headertext h1{
 
+}
