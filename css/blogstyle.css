@@ -49,7 +49,7 @@
 		  position: absolute;
 		  top: 17rem;
 		  left: 7.25rem;
-		  width: 45rem;
+		  width: 44rem;
 		  padding-left: 15rem;
 		  max-width: 95vw;
 		  box-sizing: border-box;
@@ -129,7 +129,7 @@
 		}
 	#post {
 	  background: #555;
-	  width: 100%;
+	  width: 9999999999999pc;
 	}
 #posterimg {
   width:25px;
