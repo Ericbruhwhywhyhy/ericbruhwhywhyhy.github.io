@@ -83,12 +83,12 @@
 
 		#main h1 {
 		  color:#fff;
-			font-size: 3rem;
+			font-size: 4rem;
 		}
 	
 	h1{
 	  color:#2089B7;
-	  font-size: 3rem;
+	  font-size: 4rem;
 	}
 
 		#main h2 {
@@ -136,7 +136,8 @@
   height:25px;
 }
 p{
-  color:#fff
+  color:#fff;
+  font-size: 25px;
 }
 li{
   color:#fff;
@@ -163,4 +164,81 @@ li{
 }
 #post-content{
   left: 5rem;
+}
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+  p {
+    color: #fff;
+    font-size: 60px;
+  }
+  		#main {
+		  position: absolute;
+		  top: 43rem;
+		  left: 7.25rem;
+		  width: 44rem;
+		  padding-left: 15rem;
+		  max-width: 95vw;
+		  box-sizing: border-box;
+		  z-index: 0;
+			color: #888;
+			transform:
+			perspective(600px)
+			translate3d(-50%,-50%,-15rem)
+			rotate3d(0, 0, 0, 90deg);
+			transform-origin: 50% 50% -15rem;
+			animation: 0.5s MainAppear cubic-bezier(.3,1.48,.7,.99);
+		}
+		@keyframes MainAppear {
+			from { opacity: 0; transform:
+			perspective(600px)
+			translate3d(-50%, -50%, -15rem)
+			rotate3d(1, 0, 0, 90deg); }
+			to { opacity: 1; transform:
+			perspective(600px)
+			translate3d(-50%, -50%, -15rem)
+			rotate3d(0, 0, 0, 90deg); }
+		}
+		@keyframes MainHide {
+			from { opacity: 1; transform: perspective(600px) translate3d(-50%, -50%, -15rem) rotate3d(0, 0, 0, 90deg); }
+			to { opacity: 0; transform: perspective(600px) translate3d(-50%, -50%, -15rem) rotate3d(1, 0, 0, 90deg); }
+		}
+		#main.hidden {
+			pointer-events: none;
+			animation: 0.3s MainHide cubic-bezier(.24,-0.26,.88,.42) forwards;
+		}
+  #main .button {
+			display: inline-block;
+			padding: 0.5rem 1rem;
+			padding-top: 0.4rem;
+			background-color: #111;
+			border: 1px solid #888;
+			border-radius: 3px;
+			color: #888;
+			cursor: pointer;
+			margin-right: 0.5rem;
+			transform: translateY(0px);
+			transition: 0.3s color, 0.3s background-color, 0.3s border-color, 0.3s transform;
+		  width:150px;
+		  height:70px;
+		  font-size: 29px;
+		}
+		#main .button:hover {
+			background-color: #333;
+			border-color: #FFF;
+			color: #FFF;
+			transform: translateY(-1px);
+		}
+		#main .button:active {
+			background-color: #FFF;
+			border-color: #FFF;
+			color: #000;
+			transform: translateY(2px);
+			transition: 0.05s color, 0.05s background-color, 0.05s border-color, 0.05s transform;
+		}
+		#main h2{
+		  font-size: 3rem;
+		}
+		#main time{
+		  font-size: 2.25rem;
+		}
+
 }
