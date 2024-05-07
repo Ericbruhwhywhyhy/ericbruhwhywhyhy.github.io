@@ -240,5 +240,8 @@ li{
 		#main time{
 		  font-size: 2.25rem;
 		}
+		#main li{
+		  font-size: 2.35rem;
+		}
 
 }
