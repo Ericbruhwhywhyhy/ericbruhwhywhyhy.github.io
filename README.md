@@ -8,6 +8,6 @@ UPDATE2(26/4/2024): Now includes a very early W.I.P Blog page!
 
 ## Used Third-party code/libraries:
 ### ThreeJS: https://threejs.org
-### Howler.js: https://howlerjs.com
+### HowlerJS: https://howlerjs.com
 ### https://codepen.io/f614/pen/bGJQZoq
 
