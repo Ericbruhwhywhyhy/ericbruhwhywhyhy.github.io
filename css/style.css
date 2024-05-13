@@ -175,3 +175,9 @@ background: rgba(31, 52, 71, .5);
 	  height:38px;
 	  padding: 0px;
 	}
+	
+.button{
+display: flex;
+width: 5rem;
+height: 1.2rem;
+}
