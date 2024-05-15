@@ -92,12 +92,12 @@
 	  font-size: 4rem;
 	}
 
-		#main h2 {
+		h2 {
 		  color:#fff;
 			font-size: 1.25rem;
 		}
 
-		#main .button {
+		.button {
 			display: inline-block;
 			padding: 0.5rem 1rem;
 			padding-top: 0.4rem;
@@ -110,13 +110,13 @@
 			transform: translateY(0px);
 			transition: 0.3s color, 0.3s background-color, 0.3s border-color, 0.3s transform;
 		}
-		#main .button:hover {
+		.button:hover {
 			background-color: #333;
 			border-color: #FFF;
 			color: #FFF;
 			transform: translateY(-1px);
 		}
-		#main .button:active {
+		.button:active {
 			background-color: #FFF;
 			border-color: #FFF;
 			color: #000;
@@ -124,7 +124,7 @@
 			transition: 0.05s color, 0.05s background-color, 0.05s border-color, 0.05s transform;
 		}
 
-		#main a {
+		a {
 			color: #555;
 			font-weight: 900;
 		}
