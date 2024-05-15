@@ -90,6 +90,10 @@ background: #000000 url('/assets/crystal.png');
   height: 10rem;
   background: #000000 url('/assets/crystal.png');
 }
+#ipdisplayer {
+  height: 10rem;
+  background: #000000 url('/assets/crystal.png');
+}
 
  .button {
    display: inline-block;
