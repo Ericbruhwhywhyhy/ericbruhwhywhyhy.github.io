@@ -33,22 +33,43 @@ padding: 1.5px;
 width: 45px;
 height: 45px;
 }
-
+#tetrio:hover {
+filter: invert(25%);
+transition: 0.5s;
+}
 #ciu{
 border: 2px solid #FFFFFF;
 border-radius: 5px;
 width: 85px;
-height: 45px;
+height: 48px;
+}
+#ciu:hover {
+  filter: invert(25%);
+  transition: 0.5s;
 }
 #youtube{
 border: 2px solid #FFFFFF;
 border-radius: 5px;
+height: 48px;
+}
+#youtube:hover {
+  filter: invert(25%);
+  transition: 0.5s;
 }
 #github {
   width:45px;
-  height: 45px;
+  height: 48px;
   border: 2px solid #FFFFFF;
   border-radius: 5px;
+}
+#github:hover {
+  filter: invert(25%);
+  transition: 0.5s;
+}
+
+#social{
+margin: 0;
+display: inline-flex;
 }
 
 #projects{
@@ -121,3 +142,4 @@ background: #000000 url('/assets/crystal.png');
     transform: translateY(2px);
     transition: 0.05s color, 0.05s background-color, 0.05s border-color, 0.05s transform;
   }
+
