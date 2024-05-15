@@ -86,6 +86,10 @@ font-size: 17px;
   height: 10rem;
 background: #000000 url('/assets/crystal.png');
 }
+#blog {
+  height: 10rem;
+  background: #000000 url('/assets/crystal.png');
+}
 
  .button {
    display: inline-block;
