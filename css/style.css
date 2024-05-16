@@ -34,7 +34,6 @@ width: 45px;
 height: 45px;
 }
 #tetrio:hover {
-filter: invert(25%);
 transition: 0.5s;
 }
 #ciu{
@@ -44,6 +43,7 @@ width: 85px;
 height: 48px;
 }
 #ciu:hover {
+  border: 2px solid #8D00FF;
   filter: invert(25%);
   transition: 0.5s;
 }
@@ -53,10 +53,12 @@ border-radius: 5px;
 height: 48px;
 }
 #youtube:hover {
-  filter: invert(25%);
+  color: rgba(255, 0, 0, 1);
+  border: 2px solid rgba(255, 5, 5, 1);
   transition: 0.5s;
 }
 #github {
+  border: 2px solid rgba(173, 173, 173, 1);
   width:45px;
   height: 48px;
   border: 2px solid #FFFFFF;
