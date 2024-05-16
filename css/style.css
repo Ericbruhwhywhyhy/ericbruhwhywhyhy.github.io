@@ -72,47 +72,32 @@ margin: 0;
 display: inline-flex;
 }
 
-#projects{
-  animation: godown 2.5s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal forwards;
-background-color: #33343C;
--webkit-clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 11%);
-clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 2%);
-height:1500px;
-top: px;
-overflow-y: hidden;
-
-}@keyframes godown {
+@keyframes godown {
   0% {
-    transform: translateY(-100px);
+    transform: translateY(-150px);
   }
 
   100% {
-    transform: translateY(125px);
+    transform: translateY(175px);
   }
 }
 
 #awebsite{
 z-index: 9;
 background: #000000 url('/assets/crystal.png') fixed;
-height: 100%;
+height: 100% auto;
 font-size: 17px;
 }
-#awebsite {
-  z-index: 9;
-  background: #000000 url('/assets/crystal.png') fixed;
-  height: 10rem;
-  font-size: 17px;
-}
 #tetrioupd{
-  height: 10rem;
+  height: 10rem auto;
 background: #000000 url('/assets/crystal.png');
 }
 #blog {
-  height: 10rem;
+  height: 10rem auto;
   background: #000000 url('/assets/crystal.png');
 }
 #ipdisplayer {
-  height: 10rem;
+  height: 10rem auto;
   background: #000000 url('/assets/crystal.png');
 }
 
@@ -142,4 +127,50 @@ background: #000000 url('/assets/crystal.png');
     transform: translateY(2px);
     transition: 0.05s color, 0.05s background-color, 0.05s border-color, 0.05s transform;
   }
+#extra{
+  display: flex;
+  padding-top: 37px;
+  width: 100%;
+  animation: godown 2.5s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal forwards;
+  background-color: #33343C;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 11%);
+  clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 2%);
+  height:1500px;
+  overflow-y: hidden;
+}
 
+#about{
+font-size: 17px;
+flex: 3;
+width: 50% auto;
+}
+
+#projects{
+flex: 1;
+float: right;
+width: 50% auto;
+}
+@media only screen and (max-width: 720px){
+  #extra {
+    display: inline-block;
+    text-align: center;
+    padding-top: 37px;
+    animation: godown 2.5s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal forwards;
+    background-color: #33343C;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 11%);
+    clip-path: polygon(100% 0, 100% 100%, 100% 100%, 0 100%, 0 2%);
+    height: 1500px;
+    overflow-y: hidden;
+  }
+  
+  #about {
+    flex: 3;
+    align-self: centet;
+    text-align: center;
+  }
+  }
+  
+  #projects {
+    flex: 3;
+    display: flexbox;
+  }
