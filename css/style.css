@@ -196,10 +196,10 @@ width: 100% auto;
     display: flexbox;
   }
 #clicknum{
-color: black;
+webkit-text-fill-color: #000000;
 }
 #click{
-color: black;
+webkit-text-fill-color: #000000;
 }
 img.emoji {
   height: 1.5em;
