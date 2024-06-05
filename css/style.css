@@ -102,25 +102,29 @@ display: inline-flex;
 
 #awebsite{
 z-index: 9;
-background: #000000 url('https://ericbruhwhywhyhy.github.io/awebsite/assets/crystal.png') fixed;
+background: #000000 url('https://ericbruhwhywhyhy.github.io/assets/crystal.png') fixed;
 height: 100% auto;
 font-size: 17px;
 }
 #tetrioupd{
   height: 10rem auto;
-background: #000000 url('https://ericbruhwhywhyhy.github.io/awebsite/assets/crystal.png');
+background: #000000 url('https://ericbruhwhywhyhy.github.io/assets/crystal.png');
 }
 #blog {
   height: 10rem auto;
-  background: #000000 url('https://ericbruhwhywhyhy.github.io/awebsite/assets/crystal.png');
+  background: #000000 url('https://ericbruhwhywhyhy.github.io/assets/crystal.png');
 }
 #clicker {
   height: 10rem auto;
-  background: #000000 url('https://ericbruhwhywhyhy.github.io/awebsite/assets/crystal.png');
+  background: #000000 url('https://ericbruhwhywhyhy.github.io/aassets/crystal.png');
 }
 #ipdisplayer {
   height: 10rem auto;
-  background: #000000 url('https://ericbruhwhywhyhy.github.io/awebsite/assets/crystal.png');
+  background: #000000 url('https://ericbruhwhywhyhy.github.io/assets/crystal.png');
+}
+#passwordguessr {
+  height: 10rem auto;
+  background: #000000 url('https://ericbruhwhywhyhy.github.io/assets/crystal.png');
 }
 
  .button {
