@@ -12,6 +12,12 @@ body {
     background-size: cover;
 font-family: "Inconsolata";
 }
+
+#canvas-container {
+
+touch-action: none;
+z-index: -69;
+}
 #yapping{
 text-align: center;
 animation: goup 2.5s cubic-bezier(0.34, 1.56, 0.64, 1) 0s 1 normal forwards;
@@ -50,6 +56,7 @@ width: 45px;
 height: 45px;
 }
 #tetrio:hover {
+background: url('./assets/tetrio-color.svg');
 transition: 0.5s;
 }
 #ciu{

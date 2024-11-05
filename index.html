@@ -2,7 +2,10 @@
 <html>
     <head>
 <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
-      
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.5.5/pixi.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/PixiPlugin.min.js'></script>
     <script src="./js/howler.js"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="icon" type="image/x-icon" href="./why.ico">
@@ -15,17 +18,19 @@
        <script type="text/javascript" src="./js/howler.js"></script>
         </head>
     <body>
+
 <div id="yapping">
   <h1>Hello! I'm Ericbruh!</h1>
   <div id="social">
-<div onclick="window.location.href='https://ch.tetr.io/u/ericbruhwhywhyhy';" onmouseover="tetriohover()" onmouseout="tetrionohover();"><img src="./assets/tetrio-mono.svg" id="tetrio"></div>
+<div onclick="window.location.href='https://ch.tetr.io/u/ericbruhwhywhyhy';"><img src="./assets/tetrio-mono.svg" id="tetrio"></div>
 <div onclick="window.location.href='https://x.com/@Ericbruh12469';" ><img src="./assets/twitterlmao.png" id="twitterlmao"></div>
 <div onclick="window.location.href='https://youtube.com/@ericbruhwhywhyhy';"><img src="./assets/youtube.svg" id="youtube"></div>
 <div onclick="window.location.href='https://forum.chickeninvaders.com/u/ericbruh';"><img src="./assets/ciu.png" id="ciu"></div>
 <div onclick="window.location.href='https://github.com/ericbruhwhywhyhy';"><img src="./assets/github-mark-white.png" id="github">
 </div>
   </div>
-      <canvas id="bg">
+</div>
+
 </div>
 </div>
 <div id="extra">
@@ -47,11 +52,10 @@
     <div class="button"><a href="https://ericbruhwhywhyhy.github.io/passwordguessr/">Homepage</a></div>
   </div>
 
-<div id="tetrioupd">
-  <h2>TETR.IO Unofficial Profile Displayer/Fetcher [W.I.P]</h2>
-  <p>Get various TETR.IO player's information with this (totally ;) ) advanced tool</p>
-  <div class="button"><a href="https://github.com/ericbruhwhywhyhy/tetr.io_profile-display">Repository</a></div>
-  <div class="button"><a href="https://ericbruhwhywhyhy.github.io/tetr.io_profile-display">Homepage</a></div>
+<div id="clicker">
+  <h2>URL Shortener</h2>
+  <p>a stupid and low eforturl shortener made with Express and MongoDB</p>
+  <div class="button"><a href="/urlshortener/">Homepage</a></div>
 </div>
 <div id="blog">
   <h2>Blog</h2>
@@ -67,6 +71,12 @@
   <h2>[LEGACY] IP Displayer</h2>
   <p>Exactly what it says on the tin</p>
   <div class="button"><a href="https://ericbruhwhywhyhy.github.io/ipdisplay/">Homepage</a></div>
+  <div id="tetrioupd">
+    <h2>[LEGACY]TETR.IO Unofficial Profile Displayer/Fetcher [W.I.P]</h2>
+    <p>Get various TETR.IO player's information with this (totally ;) ) advanced tool</p>
+    <div class="button"><a href="https://github.com/ericbruhwhywhyhy/tetr.io_profile-display">Repository</a></div>
+    <div class="button"><a href="https://ericbruhwhywhyhy.github.io/tetr.io_profile-display">Homepage</a></div>
+  </div>
 </div>
 </div>
 </div>
